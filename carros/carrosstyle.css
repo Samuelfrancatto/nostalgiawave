@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body{
+    background-color: #008080;
+}
+
+#barralat{
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #c0c0c0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+    border-right: solid 5px gray;
+}
+
+#barralat p{
+    font: normal 18px Arial;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+#fechar{
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    left: 200px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+#fechar:active{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(0.9);
+    background-color: gray;
+}
+
+#abrir{
+    position: fixed;
+    background-color: #c0c0c0;
+    border: solid 1px black;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    top: 0;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#abrir:active{
+    transform: scale(0.9);
+    background-color: gray;
+}
+
+h1{
+    padding-top: 45px;
+}
+
+.categoria1{
+    margin-bottom: 20px;
+}
+
+.categoria1 h2{
+    margin-top: 60px;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.categoria1 ul{
+    list-style: none;
+}
+
+.categoria1 li{
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    font: normal 18px Arial;
+    top: 0px;
+    left: 10px;
+    position: relative;
+    padding: 5px;
+}
+
+
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 99);
+}
+
+
+
+.audiobtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #c0c0c0;
+    padding-right: 10px;
+    border: double 5px gray;
+}
+
+.audiobtn span{
+    font-size: 30px;
+    text-align: right;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.audiobtn img{
+    width: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.item a {
+    background-color: transparent !important;
+    transition: background-color 0.3s;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.relogiodiv{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #c0c0c0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: double 5px gray;
+    text-align: center;
+}
+
+#relogio{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+main{
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #c0c0c0;
+    max-width: 600px;
+    text-align: center;
+    border: double 5px gray;
+}
+
+main p{
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: justify;
+}
+
+main h1{
+    font-family: 'Press Start 2P';
+}
+
+main img{
+    width: 500px;
+    border: solid 5px #888888;
+    padding: 5px;
+    background-color: #eaeaea;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+main img::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border: 8px solid #888888;
+    z-index: -1;
+}

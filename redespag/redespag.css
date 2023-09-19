@@ -1,0 +1,115 @@
+
+
+body{
+    background-color: rgb(43, 43, 43);
+    margin: 20px;
+}
+
+h1{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact;
+    letter-spacing: 2px;
+}
+
+img{
+    width: 600px;
+    border: solid 5px rgb(255, 0, 128);
+    margin-top: 200px;
+    margin-left: 335px;
+}
+
+.ola{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 100px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto' ;
+    font-weight: bold;
+
+}
+
+.yt:link{
+    text-decoration: none;
+    color: white;
+}
+
+.yt:visited{
+    color: white;
+}
+
+.yt:hover{
+    color: rgb(248, 42, 42);
+}
+
+.insta:link{
+    text-decoration: none;
+    color: white;
+}
+
+.insta:visited{
+    color: white;
+}
+
+.insta:hover{
+    color: #9f378b;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(43, 43, 43);
+        margin: 20px;
+    }
+
+    h1 {
+        color: white;
+        padding-top: 20px; 
+        text-align: center;
+        font-size: 30px; 
+        font-family: Impact;
+        letter-spacing: 2px;
+    }
+
+    img {
+        width: 100%; 
+        border: solid 5px rgb(255, 0, 128);
+        margin-top: 20px; 
+        margin-left: 0; 
+    }
+
+    .ola,
+    p {
+        text-align: center;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .yt:link,
+    .yt:visited,
+    .insta:link,
+    .insta:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    .yt:hover {
+        color: rgb(248, 42, 42);
+    }
+
+    .insta:hover {
+        color: #9f378b;
+    }
+}
+
+
