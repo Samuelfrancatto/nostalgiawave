@@ -150,7 +150,10 @@ a:hover{
     height: 50px;
     background-color: #c0c0c0;
     padding-right: 10px;
-    border: double 5px gray;
+    border-top: solid 3px #DFDFEF;
+    border-left: solid 3px #dfdfef;
+    border-right: solid 3px #474747;
+    border-bottom: solid 3px #474747;
 }
 
 .audiobtn span{
@@ -177,7 +180,11 @@ a:hover{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    border: double 5px gray;
+    background-color: #c0c0c0;
+    border-top: solid 3px #DFDFEF;
+    border-left: solid 3px #dfdfef;
+    border-right: solid 3px #474747;
+    border-bottom: solid 3px #474747;
     text-align: center;
 }
 
@@ -215,7 +222,11 @@ main{
     background-color: #c0c0c0;
     max-width: 600px;
     text-align: center;
-    border: double 5px gray;
+    background-color: #c0c0c0;
+    border-top: solid 3px #DFDFEF;
+    border-left: solid 3px #dfdfef;
+    border-right: solid 3px #474747;
+    border-bottom: solid 3px #474747;
 }
 
 main p{
